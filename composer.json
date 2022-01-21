@@ -46,7 +46,8 @@
     },
     "scripts": {
         "lint": "vendor/bin/ecs",
-        "lint-fix": "vendor/bin/ecs --fix"
+        "lint-fix": "vendor/bin/ecs --fix",
+        "test": "vendor/bin/phpunit --coverage"
     },
     "config": {
         "allow-plugins": {
