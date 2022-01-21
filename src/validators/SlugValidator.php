@@ -6,7 +6,6 @@ namespace JCIT\validators;
 
 use yii\base\InvalidConfigException;
 use yii\base\Model;
-use yii\BaseYii;
 use yii\db\ActiveQuery;
 use yii\validators\FilterValidator;
 use yii\validators\RegularExpressionValidator;
@@ -25,7 +24,7 @@ class SlugValidator extends UniqueValidator
 
     public function init(): void
     {
-        $this->regexMessage = $this->regexMessage ?? BaseYii::t('JCIT', 'Can only contain letters, numbers and -.');
+        $this->regexMessage = $this->regexMessage ?? \Yii::t('JCIT', 'Can only contain letters, numbers and -.');
         if (is_array($this->targetAttribute)) {
             throw new InvalidConfigException('Target attribute can only be one attribute, set as string.');
         }
