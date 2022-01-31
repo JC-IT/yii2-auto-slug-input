@@ -1,6 +1,6 @@
 # Transform text field to slug input and slug validator
 
-[![codecov](https://codecov.io/gh/jc-it/yii2-auto-slug-input/branch/master/graph/badge.svg)](https://codecov.io/gh/jc-it/yii2-secrets)
+[![codecov](https://codecov.io/gh/jc-it/yii2-auto-slug-input/branch/master/graph/badge.svg)](https://codecov.io/gh/jc-it/yii2-auto-slug-input)
 [![Continous integration](https://github.com/jc-it/yii2-auto-slug-input/actions/workflows/ci.yaml/badge.svg)](https://github.com/jc-it/yii2-auto-slug-input/actions/workflows/ci.yaml)
 ![Packagist Total Downloads](https://img.shields.io/packagist/dt/jc-it/yii2-auto-slug-input)
 ![Packagist Monthly Downloads](https://img.shields.io/packagist/dm/jc-it/yii2-auto-slug-input)
