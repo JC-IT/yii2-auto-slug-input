@@ -28,7 +28,8 @@ class SlugValidator extends UniqueValidator
         if (is_array($this->targetAttribute)) {
             throw new InvalidConfigException('Target attribute can only be one attribute, set as string.');
         }
-        $this->targetAttribute = strlen($this->targetAttribute) == 0 ? 'slug' : $this->targetAttribute;
+        /** @phpstan-ignore-next-line isset is not allowed on a not nullable attribute, but targetAttribute can be not initialized */
+        $this->targetAttribute = !isset($this->targetAttribute) ? 'slug' : $this->targetAttribute;
 
         if (
             /** @phpstan-ignore-next-line */
