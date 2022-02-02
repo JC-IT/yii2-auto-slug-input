@@ -21,7 +21,7 @@ class AutoSlugInput extends InputWidget
             'attributes' => [
                 $this->attribute => ArrayHelper::merge(array_filter([
                     'type' => Form::INPUT_TEXT,
-                    'value' => $this->value,
+                    'value' => $this->model->{$this->attribute},
                 ]), $this->options),
             ]
         ]);
