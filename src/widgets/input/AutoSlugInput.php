@@ -6,7 +6,7 @@ namespace JCIT\widgets\input;
 
 use kartik\builder\Form;
 use yii\base\InvalidConfigException;
-use yii\bootstrap4\InputWidget;
+use yii\bootstrap5\InputWidget;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 

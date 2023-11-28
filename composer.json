@@ -15,7 +15,7 @@
 
         "kartik-v/yii2-builder": "^1.6.9",
         "yiisoft/yii2": "~2.0.42",
-        "yiisoft/yii2-bootstrap4": "^2.0.10"
+        "yiisoft/yii2-bootstrap5": "^2.0.4"
     },
     "require-dev": {
         "captainhook/plugin-composer": "^5.3",
